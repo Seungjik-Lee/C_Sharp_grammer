@@ -1,0 +1,7 @@
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210407\20210407\bin\Debug\20210407.exe.config
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210407\20210407\bin\Debug\20210407.exe
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210407\20210407\bin\Debug\20210407.pdb
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210407\20210407\obj\Debug\20210407.csprojAssemblyReference.cache
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210407\20210407\obj\Debug\20210407.csproj.CoreCompileInputs.cache
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210407\20210407\obj\Debug\20210407.exe
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210407\20210407\obj\Debug\20210407.pdb
