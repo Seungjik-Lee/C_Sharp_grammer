@@ -112,6 +112,7 @@ namespace _20210407
             list.Add("홍길동");
             list.Add("김길동");
             list.Add("박길동");
+            list.RemoveAt(0);
             for (int i = 0; i < list.Count; i++)
             {
                 Console.Write(list[i] + " ");
