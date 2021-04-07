@@ -74,6 +74,19 @@ namespace _20210407
                 }
                 Console.WriteLine();
             }
+
+            //2차원 배열 초기화4
+            int[][] arrInt4 = new int[3][];
+            for (int i = 0; i < arrInt4.Length; i++)
+            {
+                arrInt4[i] = new int[i + 1];
+                for (int j = 0; j < arrInt4[i].Length; j++)
+                {
+                    arrInt4[i][j] = 10 + j;
+                    Console.Write(arrInt4[i][j] + " ");
+                }
+                Console.WriteLine();
+            }
         }
     }
 }
