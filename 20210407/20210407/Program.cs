@@ -106,6 +106,17 @@ namespace _20210407
                 Console.Write(str + " ");
             }
             Console.WriteLine();
+
+            //List
+            List<string> list = new List<string>();
+            list.Add("홍길동");
+            list.Add("김길동");
+            list.Add("박길동");
+            for (int i = 0; i < list.Count; i++)
+            {
+                Console.Write(list[i] + " ");
+            }
+            Console.WriteLine();
         }
     }
 }
