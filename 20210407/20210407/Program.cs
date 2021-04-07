@@ -150,7 +150,7 @@ namespace _20210407
             {
                 Console.WriteLine(val);
             }
-            Console.WriteLine();
+            Console.WriteLine("값:{0}", dic["key2"]);
         }
     }
 }
