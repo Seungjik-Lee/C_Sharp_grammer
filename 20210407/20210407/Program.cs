@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -118,6 +119,36 @@ namespace _20210407
             for (int i = 0; i < list.Count; i++)
             {
                 Console.Write(list[i] + " ");
+            }
+            Console.WriteLine();
+
+            //Hash table(key, value)
+            Hashtable hTable = new Hashtable();
+            hTable.Add(1, "고길동");
+            hTable.Add(2, "고희동");
+            hTable.Add(3, "도우너");
+            if (hTable.Contains(1))
+            {
+                Console.WriteLine(hTable[1]);
+            }
+            Console.WriteLine();
+
+            //Dictionary
+            Dictionary<string, string> dic = new Dictionary<string, string>();
+            dic.Add("key1", "둘리");
+            dic.Add("key2", "또치");
+            dic.Add("key3", "마이콜");
+            foreach (KeyValuePair<string, string> item in dic)
+            {
+                Console.WriteLine("{0}:{1}", item.Key, item.Value);
+            }
+            foreach (string key in dic.Keys)
+            {
+                Console.WriteLine(key);
+            }
+            foreach (string val in dic.Values)
+            {
+                Console.WriteLine(val);
             }
             Console.WriteLine();
         }
