@@ -87,6 +87,25 @@ namespace _20210407
                 }
                 Console.WriteLine();
             }
+
+            //foreach
+            int[] arrEach = { 1, 2, 3, 4, 5 };
+            //var 제약 조건
+            //1. 지역변수만 사용가능
+            //2. 변수선언 및 초기화
+            foreach (var i in arrEach)
+            {
+                Console.Write(i + " ");
+            }
+            Console.WriteLine();
+
+            //foreach 2차원
+            string[,] arrEach2 = { { "홍길동", "김길동" }, { "hong", "kim" } };
+            foreach (var str in arrEach2)
+            {
+                Console.Write(str + " ");
+            }
+            Console.WriteLine();
         }
     }
 }
