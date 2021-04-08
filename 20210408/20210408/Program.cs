@@ -53,9 +53,13 @@ namespace _20210408
             }
             */
 
+            //학생관리 프로그램
             const int MAIN_MENU_INSERT = 1;
             const int MAIN_MENU_VIEW = 2;
-            const int MAIN_MENU_EXIT = 3;
+            const int MAIN_MENU_ADD = 3;
+            const int MAIN_MENU_UPDATE = 4;
+            const int MAIN_MENU_DELETE = 5;
+            const int MAIN_MENU_EXIT = 6;
 
             Random r = new Random();
             string[] name = { "고길동", "둘리", "또치", "도우너", "마이콜" };
@@ -72,6 +76,8 @@ namespace _20210408
                 switch (menu())
                 {
                     case MAIN_MENU_INSERT:
+                        int size = getRandSize();
+                        st = new StudentClass[size];
                         createRandomdata(st, name, age, gender, tel, addr, r); //랜덤 데이터 생성
                         break;
                     case MAIN_MENU_VIEW:
@@ -79,6 +85,12 @@ namespace _20210408
                         {
                             dataView2(st); //데이터 출력
                         }
+                        break;
+                    case MAIN_MENU_ADD:
+                        break;
+                    case MAIN_MENU_UPDATE:
+                        break;
+                    case MAIN_MENU_DELETE:
                         break;
                     case MAIN_MENU_EXIT:
                         Environment.Exit(0);
@@ -110,13 +122,22 @@ namespace _20210408
             return menunum;
         }
 
+        public static int getRandSize()
+        {
+            Console.WriteLine("-------------------------------------");
+            Console.WriteLine("랜덤 데이터 생성 크기");
+            Console.WriteLine("-------------------------------------");
+            Console.WriteLine("크기 입력 : ");
+            return Convert.ToInt32(Console.ReadLine());
+        }
+        
         public static void createRandomdata(StudentClass[] st, string[] name, int[] age, char[] gender, string[] tel, string[] addr, Random r)
         {
             for (int i = 0; i < st.Length; i++)
             {
                 st[i] = new StudentClass(name[r.Next(5)], age[r.Next(5)], gender[r.Next(2)], tel[r.Next(5)], addr[r.Next(5)]);
-                Console.WriteLine("정상적으로 데이터가 처리 되었습니다.");
             }
+                Console.WriteLine("정상적으로 데이터가 처리 되었습니다.");
         }
 
         public static void dataView(StudentClass[] s)
