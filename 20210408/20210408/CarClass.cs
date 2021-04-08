@@ -8,6 +8,7 @@ namespace _20210408
 {
     class CarClass
     {
+        public const string CENTER = "동대구 영업소";
         private string model;
         private string color;
         private string company;
