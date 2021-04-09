@@ -1,4 +1,5 @@
 ﻿using _20210409.Model;
+using _20210409.Util;
 using _20210409.View;
 using System;
 using System.Collections.Generic;
@@ -18,7 +19,7 @@ namespace _20210409
 
                         Console.WriteLine("영업소 : " + Seller.CENTER);
                         new Seller("김준석", 28, "사장").sellerinfo();*/
-            
+            RandData rand = new RandData();
             Menu menu = new Menu();
 
             while (true)
@@ -26,6 +27,7 @@ namespace _20210409
                 switch (menu.mainMenu())
                 {
                     case Menu.MENU_MAIN_RAND:
+                        carCon.insRandData(menu.getRandSize());
                         break;
                     case Menu.MENU_MAIN_DEL_ALL:
                         break;
