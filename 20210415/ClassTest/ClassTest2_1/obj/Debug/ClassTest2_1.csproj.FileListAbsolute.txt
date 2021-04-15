@@ -1,0 +1,28 @@
+E:\kb2021_c#_work\ClassTest2_1\ClassTest2_1\bin\Debug\ClassTest2_1.exe.config
+E:\kb2021_c#_work\ClassTest2_1\ClassTest2_1\bin\Debug\ClassTest2_1.exe
+E:\kb2021_c#_work\ClassTest2_1\ClassTest2_1\bin\Debug\ClassTest2_1.pdb
+E:\kb2021_c#_work\ClassTest2_1\ClassTest2_1\obj\Debug\ClassTest2_1.csprojAssemblyReference.cache
+E:\kb2021_c#_work\ClassTest2_1\ClassTest2_1\obj\Debug\ClassTest2_1.csproj.CoreCompileInputs.cache
+E:\kb2021_c#_work\ClassTest2_1\ClassTest2_1\obj\Debug\ClassTest2_1.exe
+E:\kb2021_c#_work\ClassTest2_1\ClassTest2_1\obj\Debug\ClassTest2_1.pdb
+D:\Ai\JMfile\C#\ClassTest2_1\ClassTest2_1\bin\Debug\ClassTest2_1.exe.config
+D:\Ai\JMfile\C#\ClassTest2_1\ClassTest2_1\bin\Debug\ClassTest2_1.exe
+D:\Ai\JMfile\C#\ClassTest2_1\ClassTest2_1\bin\Debug\ClassTest2_1.pdb
+D:\Ai\JMfile\C#\ClassTest2_1\ClassTest2_1\obj\Debug\ClassTest2_1.csproj.CoreCompileInputs.cache
+D:\Ai\JMfile\C#\ClassTest2_1\ClassTest2_1\obj\Debug\ClassTest2_1.exe
+D:\Ai\JMfile\C#\ClassTest2_1\ClassTest2_1\obj\Debug\ClassTest2_1.pdb
+D:\Ai\JMfile\C#\ClassTest2_1\ClassTest2_1\obj\Debug\ClassTest2_1.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\C# 수업\Test0414\ClassTest2_1\ClassTest2_1\bin\Debug\ClassTest2_1.exe.config
+C:\Users\KB\Desktop\C# 수업\Test0414\ClassTest2_1\ClassTest2_1\bin\Debug\ClassTest2_1.exe
+C:\Users\KB\Desktop\C# 수업\Test0414\ClassTest2_1\ClassTest2_1\bin\Debug\ClassTest2_1.pdb
+C:\Users\KB\Desktop\C# 수업\Test0414\ClassTest2_1\ClassTest2_1\obj\Debug\ClassTest2_1.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\C# 수업\Test0414\ClassTest2_1\ClassTest2_1\obj\Debug\ClassTest2_1.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\C# 수업\Test0414\ClassTest2_1\ClassTest2_1\obj\Debug\ClassTest2_1.exe
+C:\Users\KB\Desktop\C# 수업\Test0414\ClassTest2_1\ClassTest2_1\obj\Debug\ClassTest2_1.pdb
+C:\Users\KB\Desktop\Test0414\ClassTest2_1\ClassTest2_1\bin\Debug\ClassTest2_1.exe.config
+C:\Users\KB\Desktop\Test0414\ClassTest2_1\ClassTest2_1\bin\Debug\ClassTest2_1.exe
+C:\Users\KB\Desktop\Test0414\ClassTest2_1\ClassTest2_1\bin\Debug\ClassTest2_1.pdb
+C:\Users\KB\Desktop\Test0414\ClassTest2_1\ClassTest2_1\obj\Debug\ClassTest2_1.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\Test0414\ClassTest2_1\ClassTest2_1\obj\Debug\ClassTest2_1.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\Test0414\ClassTest2_1\ClassTest2_1\obj\Debug\ClassTest2_1.exe
+C:\Users\KB\Desktop\Test0414\ClassTest2_1\ClassTest2_1\obj\Debug\ClassTest2_1.pdb

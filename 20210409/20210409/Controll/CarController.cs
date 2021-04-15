@@ -10,8 +10,10 @@ namespace _20210409.Controll
 {
     class CarController
     {
-        List<Car> list = new List<Car>();
+        List<Car> listcar = new List<Car>();
         RandData rand;
+        const int OLD_MODEL = 0;
+        const int NEW_MODEL = 1;
 
         public CarController(RandData rand)
         {
@@ -22,7 +24,7 @@ namespace _20210409.Controll
         {
             for (int i = 0; i < count; i++)
             {
-                list.Add(new Car(
+                listcar.Add(new Car(
                     rand.getName(),
                     rand.getcolor(),
                     rand.getcompany(),
@@ -32,17 +34,39 @@ namespace _20210409.Controll
         }
         public void carView()
         {
-            for (int i = 0; i < list.Count; i++)
+            for (int i = 0; i < listcar.Count; i++)
             {
-                list[i].ToString();
+                listcar[i].ToString();
             }
         }
 
         public void carView2()
         {
-            for (int i = 0; i < list.Count; i++)
+            for (int i = 0; i < listcar.Count; i++)
             {
-                
+
+            }
+        }
+
+        public void delCarItem(string model)
+        {
+            for (int i = 0; i < listcar.Count; i++)
+            {
+                if (listcar[i].Model.Equals(model))
+                {
+                    listcar.RemoveAt(i);
+                }
+            }
+        }
+
+        public void updateCarItem(string[] model)
+        {
+            for (int i = 0; i < listcar.Count; i++)
+            {
+                if (listcar[i].Model.Equals(model[OLD_MODEL]))
+                {
+                    listcar[i].Model = model[NEW_MODEL];
+                }
             }
         }
     }
