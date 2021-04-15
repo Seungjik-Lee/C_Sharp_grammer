@@ -1,4 +1,6 @@
-﻿using MaterialSkin.Controls;
+﻿using CustCar0415.Controll;
+using CustCar0415.Util;
+using MaterialSkin.Controls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,6 +15,9 @@ namespace CustCar0415
 {
     public partial class MainWin : MaterialForm
     {
+        MyMenu mymenu = new MyMenu();
+        UnionController uHandler = new UnionController(new RandData());
+
         public MainWin()
         {
             InitializeComponent();
@@ -23,32 +28,22 @@ namespace CustCar0415
 
         }
 
-        private void cxFlatPictureBox1_Click(object sender, EventArgs e)
+        private void DataDelete_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void cxFlatRoundButton7_Click(object sender, EventArgs e)
+        private void DataView_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void cxFlatRoundButton6_Click(object sender, EventArgs e)
+        private void DataAdd_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void cxFlatRoundButton5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void cxFlatRoundButton4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void cxFlatRoundButton3_Click(object sender, EventArgs e)
+        private void DataUpdate_Click(object sender, EventArgs e)
         {
 
         }
@@ -62,5 +57,6 @@ namespace CustCar0415
         {
             Application.Exit();
         }
+
     }
 }
