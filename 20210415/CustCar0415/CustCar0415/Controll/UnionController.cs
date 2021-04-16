@@ -24,6 +24,11 @@ namespace CustCar0415.Controll
             sellHandle = new SellController(rand);
         }
 
+        internal void insRandData(object p)
+        {
+            throw new NotImplementedException();
+        }
+
         public UnionController(CarController carHandle, CustController custHandle, SellController sellHandle)
         {
             this.carHandle = carHandle;
@@ -83,6 +88,14 @@ namespace CustCar0415.Controll
                 Console.WriteLine("번호: " + (i + 1));
                 listUn[i].dealInfo();
                 Console.WriteLine("-------------------------------------");
+            }
+        }
+
+        public void removeAll()
+        {
+            if(listUn.Count == 0)
+            {
+
             }
         }
     }

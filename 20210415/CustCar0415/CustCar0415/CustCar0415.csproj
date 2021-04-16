@@ -42,6 +42,7 @@
     <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MaterialSkin.0.2.1\lib\MaterialSkin.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="SunnyUI, Version=3.0.3.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\SunnyUI.3.0.3\lib\net40\SunnyUI.dll</HintPath>
     </Reference>
@@ -94,6 +95,20 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Font\SourceCodePro-Black.ttf" />
+    <None Include="Font\SourceCodePro-BlackItalic.ttf" />
+    <None Include="Font\SourceCodePro-Bold.ttf" />
+    <None Include="Font\SourceCodePro-BoldItalic.ttf" />
+    <None Include="Font\SourceCodePro-ExtraLight.ttf" />
+    <None Include="Font\SourceCodePro-ExtraLightItalic.ttf" />
+    <None Include="Font\SourceCodePro-Italic.ttf" />
+    <None Include="Font\SourceCodePro-Light.ttf" />
+    <None Include="Font\SourceCodePro-LightItalic.ttf" />
+    <None Include="Font\SourceCodePro-Medium.ttf" />
+    <None Include="Font\SourceCodePro-MediumItalic.ttf" />
+    <None Include="Font\SourceCodePro-Regular.ttf" />
+    <None Include="Font\SourceCodePro-SemiBold.ttf" />
+    <None Include="Font\SourceCodePro-SemiBoldItalic.ttf" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -121,8 +136,6 @@
     <Content Include="Resource\페라리F8.png" />
     <Content Include="Resource\페라리로마.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Font\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

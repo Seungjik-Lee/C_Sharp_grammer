@@ -10,48 +10,9 @@ namespace CustCar0415.Util
 {
     class MyMenu
     {
-        #region 1.메뉴 상수 정의
-        public const int MENU_MAIN_RAND = 1;
-        public const int MENU_MAIN_DEL_ALL = 2;
-        public const int MENU_MAIN_VIEW = 3;
-        public const int MENU_MAIN_ADD = 4;
-        public const int MENU_MAIN_DEL = 5;
-        public const int MENU_MAIN_UPDATE = 6;
-        public const int MENU_MAIN_EXIT = 7;
-
-        public const int MENU_SUB_ADD_CAR = 1;
-        public const int MENU_SUB_ADD_CUST = 2;
-        public const int MENU_SUB_ADD_SELL = 3;
-        public const int MENU_SUB_ADD_EXIT = 4;
-        #endregion
-
-        public int mainMenu()
-        {
-            try
-            {
-                Console.WriteLine("--------------------");
-                Console.WriteLine("고객차량관리 앱 v1.0");
-                Console.WriteLine("--------------------");
-                Console.WriteLine("1. 랜덤데이터 생성");
-                Console.WriteLine("2. 모든 데이터 삭제");
-                Console.WriteLine("3. 데이터 보기");
-                Console.WriteLine("4. 데이터 추가");
-                Console.WriteLine("5. 데이터 삭제");
-                Console.WriteLine("6. 데이터 수정");
-                Console.WriteLine("7. 앱 종료");
-                Console.WriteLine("--------------------");
-                Console.Write("Main메뉴 선택 : ");
-                return Convert.ToInt32(Console.ReadLine()); ;
-            }
-            catch (FormatException e)
-            {
-                CommonMenu.errMsg("mainMenu", e.Message);
-                return mainMenu();
-            }
-        }
-
         public int getRandSize()
         {
+            int size = 0;
             try
             {
                 Console.WriteLine("--------------------");
@@ -62,16 +23,16 @@ namespace CustCar0415.Util
             }
             catch (FormatException e)
             {
-                CommonMenu.errMsg("RandSize", e.Message);
-                return getRandSize();
+                CommonMenu.errMsg("getRandSize", e.Message);
             }
+                return size;
         }
 
         public string[] addCarMenu()
         {
+                string[] data = new string[4];
             try
             {
-                string[] data = new string[4];
                 Console.WriteLine("--------------------");
                 Console.WriteLine("Car 데이터 추가");
                 Console.WriteLine("--------------------");
@@ -83,17 +44,17 @@ namespace CustCar0415.Util
                 data[2] = Console.ReadLine();
                 Console.Write("4.가격 : ");
                 data[3] = Console.ReadLine();
-                return data;
             }
             catch (FormatException e)
             {
                 CommonMenu.errMsg("addCarMenu", e.Message);
-                return addCarMenu();
             }
+                return data;
         }
 
         public Car addCarMenu2()
         {
+            Car car = null;
             try
             {
                 Console.WriteLine("--------------------");
@@ -112,8 +73,8 @@ namespace CustCar0415.Util
             catch (FormatException e)
             {
                 CommonMenu.errMsg("addCarMenu2", e.Message);
-                return addCarMenu2();
             }
+                return car;
         }
 
         public string delCarMenu()

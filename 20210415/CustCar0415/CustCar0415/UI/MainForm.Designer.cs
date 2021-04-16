@@ -31,13 +31,15 @@ namespace CustCar0415
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWin));
             this.cxFlatPictureBox1 = new CxFlatUI.CxFlatPictureBox();
-            this.cxFlatRoundButton1 = new CxFlatUI.CxFlatRoundButton();
+            this.RandDataAdd = new CxFlatUI.CxFlatRoundButton();
             this.DataUpdate = new CxFlatUI.CxFlatRoundButton();
             this.DataAdd = new CxFlatUI.CxFlatRoundButton();
             this.DataView = new CxFlatUI.CxFlatRoundButton();
             this.DataDelete = new CxFlatUI.CxFlatRoundButton();
-            this.uiSymbolButton1 = new Sunny.UI.UISymbolButton();
-            this.uiSymbolButton2 = new Sunny.UI.UISymbolButton();
+            this.MainExit = new Sunny.UI.UISymbolButton();
+            this.Help = new Sunny.UI.UISymbolButton();
+            this.RandDataDelete = new CxFlatUI.CxFlatRoundButton();
+            this.MainTitle = new Sunny.UI.UISymbolLabel();
             ((System.ComponentModel.ISupportInitialize)(this.cxFlatPictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -52,23 +54,26 @@ namespace CustCar0415
             this.cxFlatPictureBox1.TabStop = false;
             this.cxFlatPictureBox1.Click += new System.EventHandler(this.DataDelete_Click);
             // 
-            // cxFlatRoundButton1
+            // RandDataAdd
             // 
-            this.cxFlatRoundButton1.ButtonType = CxFlatUI.ButtonType.Primary;
-            this.cxFlatRoundButton1.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.cxFlatRoundButton1.Location = new System.Drawing.Point(557, 71);
-            this.cxFlatRoundButton1.Name = "cxFlatRoundButton1";
-            this.cxFlatRoundButton1.Size = new System.Drawing.Size(376, 43);
-            this.cxFlatRoundButton1.TabIndex = 3;
-            this.cxFlatRoundButton1.Text = "랜덤데이터 추가";
-            this.cxFlatRoundButton1.TextColor = System.Drawing.Color.White;
-            this.cxFlatRoundButton1.Click += new System.EventHandler(this.RandDataAdd_Click);
+            this.RandDataAdd.BackColor = System.Drawing.Color.Transparent;
+            this.RandDataAdd.ButtonType = CxFlatUI.ButtonType.Primary;
+            this.RandDataAdd.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.RandDataAdd.Location = new System.Drawing.Point(559, 71);
+            this.RandDataAdd.Name = "RandDataAdd";
+            this.RandDataAdd.Size = new System.Drawing.Size(376, 43);
+            this.RandDataAdd.TabIndex = 3;
+            this.RandDataAdd.Text = "랜덤데이터 추가";
+            this.RandDataAdd.TextColor = System.Drawing.Color.White;
+            this.RandDataAdd.Click += new System.EventHandler(this.RandDataAdd_Click);
             // 
             // DataUpdate
             // 
+            this.DataUpdate.BackColor = System.Drawing.Color.Transparent;
+            this.DataUpdate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.DataUpdate.ButtonType = CxFlatUI.ButtonType.Primary;
             this.DataUpdate.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.DataUpdate.Location = new System.Drawing.Point(559, 318);
+            this.DataUpdate.Location = new System.Drawing.Point(559, 267);
             this.DataUpdate.Name = "DataUpdate";
             this.DataUpdate.Size = new System.Drawing.Size(376, 43);
             this.DataUpdate.TabIndex = 6;
@@ -78,9 +83,10 @@ namespace CustCar0415
             // 
             // DataAdd
             // 
+            this.DataAdd.BackColor = System.Drawing.Color.Transparent;
             this.DataAdd.ButtonType = CxFlatUI.ButtonType.Primary;
             this.DataAdd.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.DataAdd.Location = new System.Drawing.Point(559, 256);
+            this.DataAdd.Location = new System.Drawing.Point(559, 218);
             this.DataAdd.Name = "DataAdd";
             this.DataAdd.Size = new System.Drawing.Size(376, 43);
             this.DataAdd.TabIndex = 7;
@@ -90,9 +96,10 @@ namespace CustCar0415
             // 
             // DataView
             // 
+            this.DataView.BackColor = System.Drawing.Color.Transparent;
             this.DataView.ButtonType = CxFlatUI.ButtonType.Primary;
             this.DataView.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.DataView.Location = new System.Drawing.Point(559, 194);
+            this.DataView.Location = new System.Drawing.Point(559, 169);
             this.DataView.Name = "DataView";
             this.DataView.Size = new System.Drawing.Size(376, 43);
             this.DataView.TabIndex = 8;
@@ -102,9 +109,10 @@ namespace CustCar0415
             // 
             // DataDelete
             // 
+            this.DataDelete.BackColor = System.Drawing.Color.Transparent;
             this.DataDelete.ButtonType = CxFlatUI.ButtonType.Primary;
             this.DataDelete.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.DataDelete.Location = new System.Drawing.Point(557, 129);
+            this.DataDelete.Location = new System.Drawing.Point(559, 120);
             this.DataDelete.Name = "DataDelete";
             this.DataDelete.Size = new System.Drawing.Size(376, 43);
             this.DataDelete.TabIndex = 9;
@@ -112,56 +120,88 @@ namespace CustCar0415
             this.DataDelete.TextColor = System.Drawing.Color.White;
             this.DataDelete.Click += new System.EventHandler(this.DataDelete_Click);
             // 
-            // uiSymbolButton1
+            // MainExit
             // 
-            this.uiSymbolButton1.BackColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.uiSymbolButton1.FillColor = System.Drawing.Color.Red;
-            this.uiSymbolButton1.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiSymbolButton1.IsCircle = true;
-            this.uiSymbolButton1.Location = new System.Drawing.Point(892, 367);
-            this.uiSymbolButton1.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiSymbolButton1.Name = "uiSymbolButton1";
-            this.uiSymbolButton1.Radius = 15;
-            this.uiSymbolButton1.Size = new System.Drawing.Size(52, 43);
-            this.uiSymbolButton1.Style = Sunny.UI.UIStyle.Custom;
-            this.uiSymbolButton1.Symbol = 61457;
-            this.uiSymbolButton1.TabIndex = 10;
-            this.uiSymbolButton1.Click += new System.EventHandler(this.MainExit_Click);
+            this.MainExit.BackColor = System.Drawing.Color.Transparent;
+            this.MainExit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.MainExit.FillColor = System.Drawing.Color.Red;
+            this.MainExit.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.MainExit.IsCircle = true;
+            this.MainExit.Location = new System.Drawing.Point(883, 367);
+            this.MainExit.MinimumSize = new System.Drawing.Size(1, 1);
+            this.MainExit.Name = "MainExit";
+            this.MainExit.Radius = 15;
+            this.MainExit.Size = new System.Drawing.Size(52, 43);
+            this.MainExit.Style = Sunny.UI.UIStyle.Custom;
+            this.MainExit.Symbol = 61457;
+            this.MainExit.TabIndex = 10;
+            this.MainExit.Click += new System.EventHandler(this.MainExit_Click);
             // 
-            // uiSymbolButton2
+            // Help
             // 
-            this.uiSymbolButton2.BackColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.uiSymbolButton2.FillColor = System.Drawing.Color.Orange;
-            this.uiSymbolButton2.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiSymbolButton2.IsCircle = true;
-            this.uiSymbolButton2.Location = new System.Drawing.Point(559, 367);
-            this.uiSymbolButton2.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiSymbolButton2.Name = "uiSymbolButton2";
-            this.uiSymbolButton2.Radius = 15;
-            this.uiSymbolButton2.Size = new System.Drawing.Size(52, 43);
-            this.uiSymbolButton2.Style = Sunny.UI.UIStyle.Custom;
-            this.uiSymbolButton2.Symbol = 61736;
-            this.uiSymbolButton2.TabIndex = 11;
-            this.uiSymbolButton2.Click += new System.EventHandler(this.Help_Click);
+            this.Help.BackColor = System.Drawing.Color.Transparent;
+            this.Help.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Help.FillColor = System.Drawing.Color.Orange;
+            this.Help.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.Help.IsCircle = true;
+            this.Help.Location = new System.Drawing.Point(559, 367);
+            this.Help.MinimumSize = new System.Drawing.Size(1, 1);
+            this.Help.Name = "Help";
+            this.Help.Radius = 15;
+            this.Help.Size = new System.Drawing.Size(52, 43);
+            this.Help.Style = Sunny.UI.UIStyle.Custom;
+            this.Help.Symbol = 61736;
+            this.Help.TabIndex = 11;
+            this.Help.Click += new System.EventHandler(this.Help_Click);
+            // 
+            // RandDataDelete
+            // 
+            this.RandDataDelete.BackColor = System.Drawing.Color.Transparent;
+            this.RandDataDelete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.RandDataDelete.ButtonType = CxFlatUI.ButtonType.Primary;
+            this.RandDataDelete.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.RandDataDelete.Location = new System.Drawing.Point(559, 316);
+            this.RandDataDelete.Name = "RandDataDelete";
+            this.RandDataDelete.Size = new System.Drawing.Size(376, 43);
+            this.RandDataDelete.TabIndex = 12;
+            this.RandDataDelete.Text = "랜덤데이터 삭제";
+            this.RandDataDelete.TextColor = System.Drawing.Color.White;
+            this.RandDataDelete.Click += new System.EventHandler(this.RandDataDelete_Click);
+            // 
+            // MainTitle
+            // 
+            this.MainTitle.BackColor = System.Drawing.Color.Transparent;
+            this.MainTitle.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.MainTitle.ForeColor = System.Drawing.Color.White;
+            this.MainTitle.Location = new System.Drawing.Point(12, 30);
+            this.MainTitle.MinimumSize = new System.Drawing.Size(1, 1);
+            this.MainTitle.Name = "MainTitle";
+            this.MainTitle.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
+            this.MainTitle.Size = new System.Drawing.Size(249, 26);
+            this.MainTitle.Style = Sunny.UI.UIStyle.Custom;
+            this.MainTitle.Symbol = 61474;
+            this.MainTitle.SymbolColor = System.Drawing.Color.PaleTurquoise;
+            this.MainTitle.TabIndex = 13;
+            this.MainTitle.Text = "고객차량관리프로그램 v1.1";
             // 
             // MainWin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(945, 663);
-            this.Controls.Add(this.uiSymbolButton2);
-            this.Controls.Add(this.uiSymbolButton1);
+            this.ClientSize = new System.Drawing.Size(945, 423);
+            this.Controls.Add(this.MainTitle);
+            this.Controls.Add(this.RandDataDelete);
+            this.Controls.Add(this.Help);
+            this.Controls.Add(this.MainExit);
             this.Controls.Add(this.DataDelete);
             this.Controls.Add(this.DataView);
             this.Controls.Add(this.DataAdd);
             this.Controls.Add(this.DataUpdate);
-            this.Controls.Add(this.cxFlatRoundButton1);
+            this.Controls.Add(this.RandDataAdd);
             this.Controls.Add(this.cxFlatPictureBox1);
             this.Name = "MainWin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "고객차량관리프로그램 v1.0";
+            this.Load += new System.EventHandler(this.MainWin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.cxFlatPictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -170,13 +210,15 @@ namespace CustCar0415
         #endregion
 
         private CxFlatUI.CxFlatPictureBox cxFlatPictureBox1;
-        private CxFlatUI.CxFlatRoundButton cxFlatRoundButton1;
+        private CxFlatUI.CxFlatRoundButton RandDataAdd;
         private CxFlatUI.CxFlatRoundButton DataUpdate;
         private CxFlatUI.CxFlatRoundButton DataAdd;
         private CxFlatUI.CxFlatRoundButton DataView;
         private CxFlatUI.CxFlatRoundButton DataDelete;
-        private Sunny.UI.UISymbolButton uiSymbolButton1;
-        private Sunny.UI.UISymbolButton uiSymbolButton2;
+        private Sunny.UI.UISymbolButton MainExit;
+        private Sunny.UI.UISymbolButton Help;
+        private CxFlatUI.CxFlatRoundButton RandDataDelete;
+        private Sunny.UI.UISymbolLabel MainTitle;
     }
 }
 
