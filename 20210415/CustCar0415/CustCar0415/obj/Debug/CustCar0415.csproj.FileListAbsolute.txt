@@ -13,3 +13,4 @@ C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210415\CustCar0415\CustCar0415\ob
 C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210415\CustCar0415\CustCar0415\obj\Debug\CustCar0415.exe
 C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210415\CustCar0415\CustCar0415\obj\Debug\CustCar0415.pdb
 C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210415\CustCar0415\CustCar0415\obj\Debug\CustCar0415.MainWin.resources
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210415\CustCar0415\CustCar0415\obj\Debug\CustCar0415.UI.DealView.resources
