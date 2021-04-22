@@ -39,6 +39,7 @@ namespace CustCar0415.Controll
         internal CarController CarHandle { get => carHandle; set => carHandle = value; }
         internal CustController CustHandle { get => custHandle; set => custHandle = value; }
         internal SellController SellHandle { get => sellHandle; set => sellHandle = value; }
+        internal List<Deal<Car, Customer, Seller>> ListUn { get => listUn; set => listUn = value; }
 
         public void addItem(Deal<Car, Customer, Seller> deal)
         {

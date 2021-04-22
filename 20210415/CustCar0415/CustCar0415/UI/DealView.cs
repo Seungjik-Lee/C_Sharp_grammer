@@ -1,4 +1,6 @@
-﻿using MaterialSkin.Controls;
+﻿using CustCar0415.Controll;
+using CustCar0415.Model;
+using MaterialSkin.Controls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,25 +13,32 @@ using System.Windows.Forms;
 
 namespace CustCar0415.UI
 {
-    public partial class DealView : MaterialForm
+    partial class DealView : MaterialForm
     {
+        UnionController uHandler;
         public DealView()
         {
             InitializeComponent();
         }
+
+        public DealView(UnionController uHandler)
+        {
+            InitializeComponent();
+            this.uHandler = uHandler;
+        }
+
         private void initDealSmListView()
         {
-            //string[] data = { "1", "그랜저", "4천만원", "홍길동", "전우치", "2001년4월16일", "4천만원" };
-            //dealSmListView.Items.Add(new ListViewItem(data));
-            for (int i = 1; i < 50; i++)
+            List<Deal<Car, Customer, Seller>> list = uHandler.ListUn;
+
+            for (int i = 1; i < list.Count; i++)
             {
-                dealSmListView.Items.Add(new ListViewItem(
+                new ListViewItem(
                 new string[]
                 {
-                    (i).ToString(),"쏘나타","4천만원", "홍길동", "전우치", "2001년4월16일", "3천만원"
-
+                    (i+1).ToString(),list[i].Car.Model, list[i].Car.Price, list[i].Customer.Name, list[i].Seller.Name, list[i].Date, list[i].Price
                 }
-                ));
+                );
             }
             setRowColor(Color.White, Color.LightGray);
             int index = dealSmListView.Items.Count - 1;
