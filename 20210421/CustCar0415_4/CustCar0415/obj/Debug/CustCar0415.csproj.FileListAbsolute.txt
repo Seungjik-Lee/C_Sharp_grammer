@@ -30,3 +30,8 @@ C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210421\CustCar0415_4\CustCar0415\
 C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210421\CustCar0415_4\CustCar0415\obj\Debug\CustCar0415.csproj.CopyComplete
 C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210421\CustCar0415_4\CustCar0415\obj\Debug\CustCar0415.csprojAssemblyReference.cache
 C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210421\CustCar0415_4\CustCar0415\obj\Debug\CustCar0415.UI.AddCar.resources
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210421\CustCar0415_4\CustCar0415\obj\Debug\CustCar0415.UI.AddCust.resources
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210421\CustCar0415_4\CustCar0415\obj\Debug\CustCar0415.UI.AddData.resources
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210421\CustCar0415_4\CustCar0415\obj\Debug\CustCar0415.UI.UcAddCar.resources
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210421\CustCar0415_4\CustCar0415\obj\Debug\CustCar0415.UI.UcAddCust.resources
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210421\CustCar0415_4\CustCar0415\obj\Debug\CustCar0415.UI.UcAddSell.resources

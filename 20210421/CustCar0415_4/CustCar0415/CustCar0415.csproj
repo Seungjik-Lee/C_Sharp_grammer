@@ -80,6 +80,18 @@
     <Compile Include="UI\AddCar.Designer.cs">
       <DependentUpon>AddCar.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\AddCust.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\AddCust.Designer.cs">
+      <DependentUpon>AddCust.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\AddData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\AddData.Designer.cs">
+      <DependentUpon>AddData.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\DealView.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +106,24 @@
     </Compile>
     <Compile Include="Main\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\UcAddCar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\UcAddCar.Designer.cs">
+      <DependentUpon>UcAddCar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UcAddCust.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\UcAddCust.Designer.cs">
+      <DependentUpon>UcAddCust.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UcAddSell.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\UcAddSell.Designer.cs">
+      <DependentUpon>UcAddSell.cs</DependentUpon>
+    </Compile>
     <Compile Include="Util\myMenu.cs" />
     <Compile Include="Util\RandData.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -109,11 +139,26 @@
     <EmbeddedResource Include="UI\AddCar.resx">
       <DependentUpon>AddCar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\AddCust.resx">
+      <DependentUpon>AddCust.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\AddData.resx">
+      <DependentUpon>AddData.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\DealView.resx">
       <DependentUpon>DealView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UcAddCar.resx">
+      <DependentUpon>UcAddCar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UcAddCust.resx">
+      <DependentUpon>UcAddCust.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UcAddSell.resx">
+      <DependentUpon>UcAddSell.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Font\DXJongro1A-KSCpc-EUC-H.ttf" />
     <None Include="Font\Ghanachocolate.ttf" />

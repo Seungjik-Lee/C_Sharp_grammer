@@ -37,7 +37,7 @@ namespace CustCar0415
 
         private void help_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("고객차량관리앱 v1.2\n" + "2021년 4월 15일 이승직");
+            MessageBox.Show("고객차량관리앱 v1.3\n" + "2021년 4월 15일 이승직");
         }
 
         private void mainExit_Click(object sender, EventArgs e)
@@ -97,7 +97,7 @@ namespace CustCar0415
 
         private void dataInsert_Click(object sender, EventArgs e)
         {
-            new AddCar().ShowDialog();
+            new AddCar(uHandler).ShowDialog();
         }
     }
 }

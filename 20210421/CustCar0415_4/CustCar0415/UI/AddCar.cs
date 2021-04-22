@@ -113,7 +113,7 @@ namespace CustCar0415.UI
             string item = cb.SelectedItem.ToString();
             if (cb.SelectedIndex > -1)
             {
-                Console.WriteLine("선택 : " + item);
+                Console.WriteLine("선택 : " + cb.SelectedItem.ToString());
             }
 
             return item;

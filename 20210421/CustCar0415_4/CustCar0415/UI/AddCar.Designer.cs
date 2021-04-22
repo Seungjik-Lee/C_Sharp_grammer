@@ -39,11 +39,11 @@ namespace CustCar0415.UI
             this.infoPrice = new Sunny.UI.UISymbolLabel();
             this.addCarOK = new Sunny.UI.UISymbolButton();
             this.addCarCancel = new Sunny.UI.UISymbolButton();
+            this.addCarExit = new Sunny.UI.UISymbolButton();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.addCarExit = new Sunny.UI.UISymbolButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -205,6 +205,21 @@ namespace CustCar0415.UI
             this.addCarCancel.Text = "취소";
             this.addCarCancel.Click += new System.EventHandler(this.addCarCancel_Click);
             // 
+            // addCarExit
+            // 
+            this.addCarExit.BackColor = System.Drawing.Color.Transparent;
+            this.addCarExit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.addCarExit.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.addCarExit.Location = new System.Drawing.Point(753, 28);
+            this.addCarExit.MinimumSize = new System.Drawing.Size(1, 1);
+            this.addCarExit.Name = "addCarExit";
+            this.addCarExit.Radius = 30;
+            this.addCarExit.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.addCarExit.Size = new System.Drawing.Size(33, 31);
+            this.addCarExit.Symbol = 61527;
+            this.addCarExit.TabIndex = 14;
+            this.addCarExit.Click += new System.EventHandler(this.addCarCancel_Click);
+            // 
             // pictureBox4
             // 
             this.pictureBox4.Image = global::CustCar0415.Properties.Resources.그랜저후방;
@@ -245,21 +260,6 @@ namespace CustCar0415.UI
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.UseWaitCursor = true;
-            // 
-            // addCarExit
-            // 
-            this.addCarExit.BackColor = System.Drawing.Color.Transparent;
-            this.addCarExit.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.addCarExit.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.addCarExit.Location = new System.Drawing.Point(753, 28);
-            this.addCarExit.MinimumSize = new System.Drawing.Size(1, 1);
-            this.addCarExit.Name = "addCarExit";
-            this.addCarExit.Radius = 30;
-            this.addCarExit.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.addCarExit.Size = new System.Drawing.Size(33, 31);
-            this.addCarExit.Symbol = 61527;
-            this.addCarExit.TabIndex = 14;
-            this.addCarExit.Click += new System.EventHandler(this.addCarCancel_Click);
             // 
             // AddCar
             // 
