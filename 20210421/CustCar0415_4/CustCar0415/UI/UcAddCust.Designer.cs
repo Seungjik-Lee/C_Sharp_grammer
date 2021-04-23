@@ -32,15 +32,15 @@ namespace CustCar0415.UI
             this.selwoman = new Sunny.UI.UIRadioButton();
             this.selman = new Sunny.UI.UIRadioButton();
             this.uiSymbolLabel5 = new Sunny.UI.UISymbolLabel();
-            this.addCarCancel = new Sunny.UI.UISymbolButton();
-            this.addCarOK = new Sunny.UI.UISymbolButton();
-            this.addCustAddr = new Sunny.UI.UITextBox();
+            this.ucAddCustInit = new Sunny.UI.UISymbolButton();
+            this.ucAddCustOK = new Sunny.UI.UISymbolButton();
+            this.ucAddCustAddr = new Sunny.UI.UITextBox();
             this.uiSymbolLabel4 = new Sunny.UI.UISymbolLabel();
-            this.addCusttel = new Sunny.UI.UITextBox();
+            this.ucAddCustTel = new Sunny.UI.UITextBox();
             this.uiSymbolLabel3 = new Sunny.UI.UISymbolLabel();
-            this.addCustage = new Sunny.UI.UITextBox();
+            this.ucAddCustAge = new Sunny.UI.UITextBox();
             this.uiSymbolLabel2 = new Sunny.UI.UISymbolLabel();
-            this.addCustname = new Sunny.UI.UITextBox();
+            this.ucAddCustName = new Sunny.UI.UITextBox();
             this.uiSymbolLabel1 = new Sunny.UI.UISymbolLabel();
             this.SuspendLayout();
             // 
@@ -84,47 +84,49 @@ namespace CustCar0415.UI
             this.uiSymbolLabel5.Text = "성별";
             this.uiSymbolLabel5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // addCarCancel
+            // ucAddCustInit
             // 
-            this.addCarCancel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.addCarCancel.FillColor = System.Drawing.Color.Red;
-            this.addCarCancel.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.addCarCancel.Location = new System.Drawing.Point(301, 467);
-            this.addCarCancel.MinimumSize = new System.Drawing.Size(1, 1);
-            this.addCarCancel.Name = "addCarCancel";
-            this.addCarCancel.Size = new System.Drawing.Size(78, 28);
-            this.addCarCancel.Style = Sunny.UI.UIStyle.Custom;
-            this.addCarCancel.Symbol = 61453;
-            this.addCarCancel.TabIndex = 28;
-            this.addCarCancel.Text = "취소";
+            this.ucAddCustInit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ucAddCustInit.FillColor = System.Drawing.Color.Red;
+            this.ucAddCustInit.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.ucAddCustInit.Location = new System.Drawing.Point(301, 467);
+            this.ucAddCustInit.MinimumSize = new System.Drawing.Size(1, 1);
+            this.ucAddCustInit.Name = "ucAddCustInit";
+            this.ucAddCustInit.Size = new System.Drawing.Size(78, 28);
+            this.ucAddCustInit.Style = Sunny.UI.UIStyle.Custom;
+            this.ucAddCustInit.Symbol = 61453;
+            this.ucAddCustInit.TabIndex = 28;
+            this.ucAddCustInit.Text = "초기화";
+            this.ucAddCustInit.Click += new System.EventHandler(this.ucAddCustInit_Click);
             // 
-            // addCarOK
+            // ucAddCustOK
             // 
-            this.addCarOK.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.addCarOK.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.addCarOK.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.addCarOK.Location = new System.Drawing.Point(213, 467);
-            this.addCarOK.MinimumSize = new System.Drawing.Size(1, 1);
-            this.addCarOK.Name = "addCarOK";
-            this.addCarOK.Size = new System.Drawing.Size(82, 28);
-            this.addCarOK.Style = Sunny.UI.UIStyle.Custom;
-            this.addCarOK.TabIndex = 27;
-            this.addCarOK.Text = "확인";
+            this.ucAddCustOK.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ucAddCustOK.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.ucAddCustOK.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.ucAddCustOK.Location = new System.Drawing.Point(213, 467);
+            this.ucAddCustOK.MinimumSize = new System.Drawing.Size(1, 1);
+            this.ucAddCustOK.Name = "ucAddCustOK";
+            this.ucAddCustOK.Size = new System.Drawing.Size(82, 28);
+            this.ucAddCustOK.Style = Sunny.UI.UIStyle.Custom;
+            this.ucAddCustOK.TabIndex = 27;
+            this.ucAddCustOK.Text = "확인";
+            this.ucAddCustOK.Click += new System.EventHandler(this.ucAddCustOK_Click);
             // 
-            // addCustAddr
+            // ucAddCustAddr
             // 
-            this.addCustAddr.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.addCustAddr.FillColor = System.Drawing.Color.White;
-            this.addCustAddr.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.addCustAddr.Location = new System.Drawing.Point(213, 301);
-            this.addCustAddr.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.addCustAddr.Maximum = 2147483647D;
-            this.addCustAddr.Minimum = -2147483648D;
-            this.addCustAddr.MinimumSize = new System.Drawing.Size(1, 1);
-            this.addCustAddr.Name = "addCustAddr";
-            this.addCustAddr.Padding = new System.Windows.Forms.Padding(5);
-            this.addCustAddr.Size = new System.Drawing.Size(374, 29);
-            this.addCustAddr.TabIndex = 26;
+            this.ucAddCustAddr.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.ucAddCustAddr.FillColor = System.Drawing.Color.White;
+            this.ucAddCustAddr.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.ucAddCustAddr.Location = new System.Drawing.Point(213, 301);
+            this.ucAddCustAddr.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.ucAddCustAddr.Maximum = 2147483647D;
+            this.ucAddCustAddr.Minimum = -2147483648D;
+            this.ucAddCustAddr.MinimumSize = new System.Drawing.Size(1, 1);
+            this.ucAddCustAddr.Name = "ucAddCustAddr";
+            this.ucAddCustAddr.Padding = new System.Windows.Forms.Padding(5);
+            this.ucAddCustAddr.Size = new System.Drawing.Size(374, 29);
+            this.ucAddCustAddr.TabIndex = 26;
             // 
             // uiSymbolLabel4
             // 
@@ -140,20 +142,20 @@ namespace CustCar0415.UI
             this.uiSymbolLabel4.Text = "주소";
             this.uiSymbolLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // addCusttel
+            // ucAddCustTel
             // 
-            this.addCusttel.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.addCusttel.FillColor = System.Drawing.Color.White;
-            this.addCusttel.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.addCusttel.Location = new System.Drawing.Point(213, 262);
-            this.addCusttel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.addCusttel.Maximum = 2147483647D;
-            this.addCusttel.Minimum = -2147483648D;
-            this.addCusttel.MinimumSize = new System.Drawing.Size(1, 1);
-            this.addCusttel.Name = "addCusttel";
-            this.addCusttel.Padding = new System.Windows.Forms.Padding(5);
-            this.addCusttel.Size = new System.Drawing.Size(374, 29);
-            this.addCusttel.TabIndex = 24;
+            this.ucAddCustTel.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.ucAddCustTel.FillColor = System.Drawing.Color.White;
+            this.ucAddCustTel.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.ucAddCustTel.Location = new System.Drawing.Point(213, 262);
+            this.ucAddCustTel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.ucAddCustTel.Maximum = 2147483647D;
+            this.ucAddCustTel.Minimum = -2147483648D;
+            this.ucAddCustTel.MinimumSize = new System.Drawing.Size(1, 1);
+            this.ucAddCustTel.Name = "ucAddCustTel";
+            this.ucAddCustTel.Padding = new System.Windows.Forms.Padding(5);
+            this.ucAddCustTel.Size = new System.Drawing.Size(374, 29);
+            this.ucAddCustTel.TabIndex = 24;
             // 
             // uiSymbolLabel3
             // 
@@ -169,20 +171,20 @@ namespace CustCar0415.UI
             this.uiSymbolLabel3.Text = "전화번호";
             this.uiSymbolLabel3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // addCustage
+            // ucAddCustAge
             // 
-            this.addCustage.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.addCustage.FillColor = System.Drawing.Color.White;
-            this.addCustage.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.addCustage.Location = new System.Drawing.Point(213, 223);
-            this.addCustage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.addCustage.Maximum = 2147483647D;
-            this.addCustage.Minimum = -2147483648D;
-            this.addCustage.MinimumSize = new System.Drawing.Size(1, 1);
-            this.addCustage.Name = "addCustage";
-            this.addCustage.Padding = new System.Windows.Forms.Padding(5);
-            this.addCustage.Size = new System.Drawing.Size(374, 29);
-            this.addCustage.TabIndex = 22;
+            this.ucAddCustAge.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.ucAddCustAge.FillColor = System.Drawing.Color.White;
+            this.ucAddCustAge.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.ucAddCustAge.Location = new System.Drawing.Point(213, 223);
+            this.ucAddCustAge.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.ucAddCustAge.Maximum = 2147483647D;
+            this.ucAddCustAge.Minimum = -2147483648D;
+            this.ucAddCustAge.MinimumSize = new System.Drawing.Size(1, 1);
+            this.ucAddCustAge.Name = "ucAddCustAge";
+            this.ucAddCustAge.Padding = new System.Windows.Forms.Padding(5);
+            this.ucAddCustAge.Size = new System.Drawing.Size(374, 29);
+            this.ucAddCustAge.TabIndex = 22;
             // 
             // uiSymbolLabel2
             // 
@@ -198,20 +200,20 @@ namespace CustCar0415.UI
             this.uiSymbolLabel2.Text = "나이";
             this.uiSymbolLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // addCustname
+            // ucAddCustName
             // 
-            this.addCustname.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.addCustname.FillColor = System.Drawing.Color.White;
-            this.addCustname.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.addCustname.Location = new System.Drawing.Point(213, 184);
-            this.addCustname.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.addCustname.Maximum = 2147483647D;
-            this.addCustname.Minimum = -2147483648D;
-            this.addCustname.MinimumSize = new System.Drawing.Size(1, 1);
-            this.addCustname.Name = "addCustname";
-            this.addCustname.Padding = new System.Windows.Forms.Padding(5);
-            this.addCustname.Size = new System.Drawing.Size(374, 29);
-            this.addCustname.TabIndex = 20;
+            this.ucAddCustName.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.ucAddCustName.FillColor = System.Drawing.Color.White;
+            this.ucAddCustName.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.ucAddCustName.Location = new System.Drawing.Point(213, 184);
+            this.ucAddCustName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.ucAddCustName.Maximum = 2147483647D;
+            this.ucAddCustName.Minimum = -2147483648D;
+            this.ucAddCustName.MinimumSize = new System.Drawing.Size(1, 1);
+            this.ucAddCustName.Name = "ucAddCustName";
+            this.ucAddCustName.Padding = new System.Windows.Forms.Padding(5);
+            this.ucAddCustName.Size = new System.Drawing.Size(374, 29);
+            this.ucAddCustName.TabIndex = 20;
             // 
             // uiSymbolLabel1
             // 
@@ -234,15 +236,15 @@ namespace CustCar0415.UI
             this.Controls.Add(this.selwoman);
             this.Controls.Add(this.selman);
             this.Controls.Add(this.uiSymbolLabel5);
-            this.Controls.Add(this.addCarCancel);
-            this.Controls.Add(this.addCarOK);
-            this.Controls.Add(this.addCustAddr);
+            this.Controls.Add(this.ucAddCustInit);
+            this.Controls.Add(this.ucAddCustOK);
+            this.Controls.Add(this.ucAddCustAddr);
             this.Controls.Add(this.uiSymbolLabel4);
-            this.Controls.Add(this.addCusttel);
+            this.Controls.Add(this.ucAddCustTel);
             this.Controls.Add(this.uiSymbolLabel3);
-            this.Controls.Add(this.addCustage);
+            this.Controls.Add(this.ucAddCustAge);
             this.Controls.Add(this.uiSymbolLabel2);
-            this.Controls.Add(this.addCustname);
+            this.Controls.Add(this.ucAddCustName);
             this.Controls.Add(this.uiSymbolLabel1);
             this.Name = "UcAddCust";
             this.Size = new System.Drawing.Size(672, 681);
@@ -255,15 +257,15 @@ namespace CustCar0415.UI
         private Sunny.UI.UIRadioButton selwoman;
         private Sunny.UI.UIRadioButton selman;
         private Sunny.UI.UISymbolLabel uiSymbolLabel5;
-        private Sunny.UI.UISymbolButton addCarCancel;
-        private Sunny.UI.UISymbolButton addCarOK;
-        private Sunny.UI.UITextBox addCustAddr;
+        private Sunny.UI.UISymbolButton ucAddCustInit;
+        private Sunny.UI.UISymbolButton ucAddCustOK;
+        private Sunny.UI.UITextBox ucAddCustAddr;
         private Sunny.UI.UISymbolLabel uiSymbolLabel4;
-        private Sunny.UI.UITextBox addCusttel;
+        private Sunny.UI.UITextBox ucAddCustTel;
         private Sunny.UI.UISymbolLabel uiSymbolLabel3;
-        private Sunny.UI.UITextBox addCustage;
+        private Sunny.UI.UITextBox ucAddCustAge;
         private Sunny.UI.UISymbolLabel uiSymbolLabel2;
-        private Sunny.UI.UITextBox addCustname;
+        private Sunny.UI.UITextBox ucAddCustName;
         private Sunny.UI.UISymbolLabel uiSymbolLabel1;
     }
 }

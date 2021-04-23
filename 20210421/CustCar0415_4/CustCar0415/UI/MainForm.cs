@@ -20,8 +20,7 @@ namespace CustCar0415
     public partial class MainWin : MaterialForm
     {
         myMenu menu = new myMenu();
-        UnionController uHandler =
-            new UnionController(new RandData());
+        UnionController uHandler = new UnionController(new RandData());
         public MainWin()
         {
             InitializeComponent();
@@ -37,7 +36,7 @@ namespace CustCar0415
 
         private void help_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("고객차량관리앱 v1.3\n" + "2021년 4월 15일 이승직");
+            MessageBox.Show("고객차량관리앱 v1.4\n" + "2021년 4월 15일 이승직");
         }
 
         private void mainExit_Click(object sender, EventArgs e)
@@ -97,7 +96,7 @@ namespace CustCar0415
 
         private void dataInsert_Click(object sender, EventArgs e)
         {
-            new AddCar(uHandler).ShowDialog();
+            new AddData(uHandler).ShowDialog();
         }
     }
 }

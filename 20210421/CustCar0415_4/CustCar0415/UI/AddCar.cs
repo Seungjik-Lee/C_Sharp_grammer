@@ -34,6 +34,34 @@ namespace CustCar0415.UI
 
         private void addCarOK_Click(object sender, EventArgs e)
         {
+            if (model == null)
+            {
+                MessageBox.Show("모델을 선택하세요.");
+                comboModel.Select();
+                return;
+            }
+
+            if (company == null)
+            {
+                MessageBox.Show("제조사를 선택하세요.");
+                comboCompany.Select();
+                return;
+            }
+
+            if (color == null)
+            {
+                MessageBox.Show("색상을 선택하세요.");
+                comboColor.Select();
+                return;
+            }
+
+            if (price == null)
+            {
+                MessageBox.Show("가격을 선택하세요.");
+                comboPrice.Select();
+                return;
+            }
+
             uHandler.CarHandle.addItem(new Car(model, color, company, price));
             MessageBox.Show("구매할 차량 정보가 저장되었습니다.");
             Close();
