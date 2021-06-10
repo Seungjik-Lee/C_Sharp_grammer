@@ -1,0 +1,50 @@
+<students>
+<student> <name>일승직</name>
+ <age>26</age>
+ <hakbeon>5610674</hakbeon>
+ <hakgwa>전자공학과</hakgwa>
+ <gender>남</gender>
+</student>
+<student> <name>이승직</name>
+ <age>26</age>
+ <hakbeon>5610674</hakbeon>
+ <hakgwa>전자공학과</hakgwa>
+ <gender>남</gender>
+</student>
+<student> <name>삼승직</name>
+ <age>26</age>
+ <hakbeon>5610674</hakbeon>
+ <hakgwa>전자공학과</hakgwa>
+ <gender>남</gender>
+</student>
+<student> <name>사승직</name>
+ <age>26</age>
+ <hakbeon>5610674</hakbeon>
+ <hakgwa>전자공학과</hakgwa>
+ <gender>남</gender>
+</student>
+<student> <name>오승직</name>
+ <age>26</age>
+ <hakbeon>5610674</hakbeon>
+ <hakgwa>전자공학과</hakgwa>
+ <gender>남</gender>
+</student>
+<student> <name>육승직</name>
+ <age>26</age>
+ <hakbeon>5610674</hakbeon>
+ <hakgwa>전자공학과</hakgwa>
+ <gender>남</gender>
+</student>
+<student> <name>칠승직</name>
+ <age>26</age>
+ <hakbeon>5610674</hakbeon>
+ <hakgwa>전자공학과</hakgwa>
+ <gender>남</gender>
+</student>
+<student> <name>팔승직</name>
+ <age>26</age>
+ <hakbeon>5610674</hakbeon>
+ <hakgwa>전자공학과</hakgwa>
+ <gender>남</gender>
+</student>
+</students>

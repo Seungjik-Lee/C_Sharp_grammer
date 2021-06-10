@@ -1,0 +1,11 @@
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210609\readCSV\bin\Debug\readCSV.exe.config
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210609\readCSV\bin\Debug\readCSV.exe
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210609\readCSV\bin\Debug\readCSV.pdb
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210609\readCSV\obj\Debug\readCSV.Form1.resources
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210609\readCSV\obj\Debug\readCSV.Properties.Resources.resources
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210609\readCSV\obj\Debug\readCSV.csproj.GenerateResource.cache
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210609\readCSV\obj\Debug\readCSV.csproj.CoreCompileInputs.cache
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210609\readCSV\obj\Debug\readCSV.exe
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210609\readCSV\obj\Debug\readCSV.pdb
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210609\readCSV\obj\Debug\readCSV.csprojAssemblyReference.cache
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210609\readCSV\obj\Debug\readCSV.Form2.resources
