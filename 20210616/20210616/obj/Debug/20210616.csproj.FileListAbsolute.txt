@@ -1,0 +1,13 @@
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210616\20210616\bin\Debug\20210616.exe.config
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210616\20210616\bin\Debug\20210616.exe
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210616\20210616\bin\Debug\20210616.pdb
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210616\20210616\obj\Debug\20210616.csprojAssemblyReference.cache
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210616\20210616\obj\Debug\_20210616.Form1.resources
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210616\20210616\obj\Debug\_20210616.Properties.Resources.resources
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210616\20210616\obj\Debug\20210616.csproj.GenerateResource.cache
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210616\20210616\obj\Debug\20210616.csproj.CoreCompileInputs.cache
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210616\20210616\obj\Debug\20210616.exe
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210616\20210616\obj\Debug\20210616.pdb
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210616\20210616\bin\Debug\Newtonsoft.Json.dll
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210616\20210616\bin\Debug\Newtonsoft.Json.xml
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210616\20210616\obj\Debug\20210616.csproj.CopyComplete

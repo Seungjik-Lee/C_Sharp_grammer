@@ -1,0 +1,27 @@
+{
+  "customers": {
+    "customer": [
+      {
+        "CustomerName": "일승직",
+        "Telecom_Company": "SKT",
+        "TeleNumber": "01068616427",
+        "Period": "365",
+        "Model": "아이폰12 pro"
+      },
+      {
+        "CustomerName": "이승직",
+        "Telecom_Company": "SKT",
+        "TeleNumber": "01068616427",
+        "Period": "365",
+        "Model": "아이폰12 pro"
+      },
+      {
+        "CustomerName": "삼승직",
+        "Telecom_Company": "SKT",
+        "TeleNumber": "01068616427",
+        "Period": "365",
+        "Model": "아이폰12 pro"
+      }
+    ]
+  }
+}

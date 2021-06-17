@@ -1,0 +1,13 @@
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210616\Json_Read_Write\bin\Debug\Json_Read_Write.exe.config
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210616\Json_Read_Write\bin\Debug\Json_Read_Write.exe
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210616\Json_Read_Write\bin\Debug\Json_Read_Write.pdb
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210616\Json_Read_Write\obj\Debug\Json_Read_Write.csprojAssemblyReference.cache
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210616\Json_Read_Write\obj\Debug\Json_Read_Write.Form1.resources
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210616\Json_Read_Write\obj\Debug\Json_Read_Write.Properties.Resources.resources
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210616\Json_Read_Write\obj\Debug\Json_Read_Write.csproj.GenerateResource.cache
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210616\Json_Read_Write\obj\Debug\Json_Read_Write.csproj.CoreCompileInputs.cache
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210616\Json_Read_Write\obj\Debug\Json_Read_Write.exe
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210616\Json_Read_Write\obj\Debug\Json_Read_Write.pdb
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210616\Json_Read_Write\bin\Debug\Newtonsoft.Json.dll
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210616\Json_Read_Write\bin\Debug\Newtonsoft.Json.xml
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210616\Json_Read_Write\obj\Debug\Json_Read_Write.csproj.CopyComplete
