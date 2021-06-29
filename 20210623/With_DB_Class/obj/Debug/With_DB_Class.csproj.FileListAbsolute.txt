@@ -1,0 +1,10 @@
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210623\With_DB_Class\bin\Debug\With_DB_Class.exe.config
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210623\With_DB_Class\bin\Debug\With_DB_Class.exe
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210623\With_DB_Class\bin\Debug\With_DB_Class.pdb
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210623\With_DB_Class\obj\Debug\With_DB_Class.csprojAssemblyReference.cache
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210623\With_DB_Class\obj\Debug\With_DB_Class.Form1.resources
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210623\With_DB_Class\obj\Debug\With_DB_Class.Properties.Resources.resources
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210623\With_DB_Class\obj\Debug\With_DB_Class.csproj.GenerateResource.cache
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210623\With_DB_Class\obj\Debug\With_DB_Class.csproj.CoreCompileInputs.cache
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210623\With_DB_Class\obj\Debug\With_DB_Class.exe
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210623\With_DB_Class\obj\Debug\With_DB_Class.pdb

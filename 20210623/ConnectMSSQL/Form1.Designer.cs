@@ -1,5 +1,5 @@
 ﻿
-namespace ConnectMSSQL
+namespace Connect_MSSQL
 {
     partial class Form1
     {

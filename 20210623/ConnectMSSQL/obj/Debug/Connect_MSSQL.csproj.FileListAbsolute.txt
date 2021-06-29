@@ -1,0 +1,7 @@
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210623\ConnectMSSQL\obj\Debug\Connect_MSSQL.csprojAssemblyReference.cache
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210623\ConnectMSSQL\obj\Debug\Connect_MSSQL.Form1.resources
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210623\ConnectMSSQL\obj\Debug\ConnectMSSQL.Properties.Resources.resources
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210623\ConnectMSSQL\obj\Debug\Connect_MSSQL.csproj.GenerateResource.cache
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210623\ConnectMSSQL\obj\Debug\Connect_MSSQL.csproj.CoreCompileInputs.cache
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210623\ConnectMSSQL\obj\Debug\ConnectMSSQL.exe
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210623\ConnectMSSQL\obj\Debug\ConnectMSSQL.pdb

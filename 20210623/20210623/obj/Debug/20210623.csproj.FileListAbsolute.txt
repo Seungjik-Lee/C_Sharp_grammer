@@ -2,9 +2,9 @@ C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210623\20210623\bin\Debug\2021062
 C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210623\20210623\bin\Debug\20210623.exe
 C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210623\20210623\bin\Debug\20210623.pdb
 C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210623\20210623\obj\Debug\20210623.csprojAssemblyReference.cache
+C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210623\20210623\obj\Debug\_20210623.Form1.resources
 C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210623\20210623\obj\Debug\_20210623.Properties.Resources.resources
 C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210623\20210623\obj\Debug\20210623.csproj.GenerateResource.cache
 C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210623\20210623\obj\Debug\20210623.csproj.CoreCompileInputs.cache
 C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210623\20210623\obj\Debug\20210623.exe
 C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210623\20210623\obj\Debug\20210623.pdb
-C:\Users\KB\Documents\GitHub\C_Sharp_grammer\20210623\20210623\obj\Debug\_20210623.Form1.resources
